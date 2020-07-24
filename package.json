@@ -1,0 +1,72 @@
+{
+  "name": "push-notifications-swpush",
+  "version": "1.0.7",
+  "dependencies": {
+    "apn": "^2.2.0",
+    "node-adm": "^0.9.1",
+    "node-gcm": "^1.0.2",
+    "web-push": "^3.3.3",
+    "wns": "^0.5.4"
+  },
+  "deprecated": false,
+  "description": "A cross-platform push service for node.js",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "dirty-chai": "^2.0.1",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^5.2.0",
+    "opn-cli": "^3.1.0",
+    "release-it": "^7.6.1",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=6.x.x"
+  },
+  "eslintConfig": {
+    "ecmaVersion": 6,
+    "env": {
+      "es6": true,
+      "node": true
+    }
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "notifications",
+    "push",
+    "push notifications",
+    "apple",
+    "ios",
+    "iphone",
+    "ipad",
+    "apns",
+    "google",
+    "android",
+    "gcm",
+    "fcm",
+    "amazon",
+    "kindle",
+    "adm",
+    "microsoft",
+    "windows",
+    "wphone",
+    "windows phone",
+    "wns",
+    "mpns",
+    "webpush"
+  ],
+  "author": "Calvin Ho",
+  "license": "MIT"
+}
