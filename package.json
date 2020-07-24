@@ -1,6 +1,6 @@
 {
   "name": "push-notifications-swpush",
-  "version": "1.0.7",
+  "version": "1.4.0",
   "dependencies": {
     "apn": "^2.2.0",
     "node-adm": "^0.9.1",
@@ -67,6 +67,13 @@
     "mpns",
     "webpush"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calvinckho/push-notifications-swpush"
+  },
+  "bugs": {
+    "url": "https://github.com/calvinckho/push-notifications-swpush/issues"
+  },
   "author": "Calvin Ho",
   "license": "MIT"
 }
